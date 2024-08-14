@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "module": "ESNext",
+        "target": "ES5",
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "allowJs": true,
+        "lib": ["ES5", "DOM", "DOM.Iterable", "ESNext.AsyncIterable"]
+    },
+    "include": ["src/**/*"]
+}

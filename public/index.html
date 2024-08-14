@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <title>Тесты</title>
+    </head>
+    <body>
+        <main class="place">
+            <aside id="navigation" class="place__navigation">
+                <header class="place__navigation__header">
+                    <img
+                        id="navigation__list"
+                        class="place__navigation__header__img"
+                        src="./assets/svgs/list.svg"
+                        alt="list"
+                    />
+                    <img
+                        id="navigation__arrow"
+                        class="place__navigation__header__img hide"
+                        src="./assets/svgs/arrow.svg"
+                        alt=""
+                    />
+                    <h1 id="navigation__title" class="place__navigation__header__title hide">
+                        ТЕСТЫ
+                    </h1>
+                </header>
+                <nav id="navigation__body" class="place__navigation__body hide">
+                    <ul id="navigation__body__nav" class="place__navigation__body__nav"></ul>
+                </nav>
+            </aside>
+            <section id="place__main" class="place__main">
+                <h1 id="place__main__title" class="place__main__title">Выберите тест из списка</h1>
+                <header id="place__test__header" class="place__test__header hide"></header>
+                <section id="place__test__body" class="place__test__body hide"></section>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
